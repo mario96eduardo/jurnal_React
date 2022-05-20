@@ -19,7 +19,7 @@ export const JournalEntry = ({ id, date, title, body, url }) => {
                     backgroundImage: `url(${url})`
                 }}
             />}
-            <div className="jornal__entry-body">
+            <div className="jornal__entry-body animate__backInRight">
                 <p className="jornal__entry-title">{title}</p>
                 <p className="jornal__entry-content">{body}</p>
             </div>

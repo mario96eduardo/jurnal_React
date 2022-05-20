@@ -29,7 +29,7 @@ export const NoteScreen = () => {
     }
 
     return (
-        <div className="note__main-content">
+        <div className="note__main-content  animate__animated animate__bounceInDown">
             <NotesAppBar />
             <div className="note__content">
 

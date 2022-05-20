@@ -8,7 +8,7 @@ export const JournalEntries = () => {
 
 
     return (
-        <div className="journal__entries">
+        <div className="journal__entries animate__animated animate__backInRight">
 
                    {
                 notes.map(note => (

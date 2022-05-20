@@ -30,10 +30,10 @@ export default function Sidebar() {
                 </button>
             </div>
 
-            <div className="journal__new-entry"
+            <div className="journal__new-entry animate__animated animate__bounceInDown"
                 onClick={handelAddNewEntry}
             >
-                <i className="far fa-calendar-plus fa-5x" />
+                <i className="far fa-calendar-plus fa-5x " />
 
                 <p className="mt-5">New entry</p>
             </div>

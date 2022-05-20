@@ -20,8 +20,8 @@ export const LoginScreen = () => {
     }
     return (
         <>
-            <h3 className="auth__title">Login</h3>
-            <form onSubmit={handeLogin}>
+            <h3 className="auth__title ">Login</h3>
+            <form onSubmit={handeLogin}className="animate__animated animate__bounceIn">
                 <input type="text"
                     placeholder="Email"
                     name="email"

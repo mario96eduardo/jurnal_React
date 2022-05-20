@@ -44,7 +44,7 @@ export const RegisterSceen = () => {
     return (
         <>
             <h3 className="auth__title">Registro</h3>
-            <form onSubmit={handlerSubmit}>
+            <form onSubmit={handlerSubmit} className="animate__animated animate__bounceIn">
              {msgError&&  ( <div className="auth__alert-error">
                   {msgError}
                 </div>)}
